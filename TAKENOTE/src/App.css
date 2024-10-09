@@ -1,0 +1,20 @@
+/* src/App.css */
+.App {
+    text-align: center;
+  }
+  
+  .notes-list {
+    margin-top: 20px;
+  }
+  
+  .note {
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  

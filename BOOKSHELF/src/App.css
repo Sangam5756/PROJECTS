@@ -1,0 +1,46 @@
+
+
+
+/* Add styles specific to the App component */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.book-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+}
+
+button {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  outline:none;
+  cursor: pointer;
+  display: flex;
+  margin: auto;
+
+}
+
+button:hover {
+  background-color: darkgreen;
+}
